@@ -21,6 +21,11 @@ namespace MvcApplication3
                 "{controller}/{action}/{id}", // URL with parameters
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
             );
+            routes.MapRoute(
+               "Employee", // Route name
+               "{controller}/{action}/{id}", // URL with parameters
+               new { controller = "Employee", action = "Employee", id = UrlParameter.Optional } // Parameter defaults
+           );
 
         }
 

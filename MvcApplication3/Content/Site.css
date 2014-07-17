@@ -99,8 +99,21 @@ first child of the left and right table columns */
 page width. Or, you can specify an exact pixel width. */
 .fleft
 {
-    float: left;    
-    }
+    float: left;
+    width: 479px;
+}
+.fright
+{
+    float: right;
+    margin-left: 112px;
+}
+.fbtm
+{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+
+}
 .page
 {
     width: 90%;
@@ -226,7 +239,6 @@ legend
 
 input[type="text"] 
 {
-    width: 200px;
     border: 1px solid #CCC;
 }
 

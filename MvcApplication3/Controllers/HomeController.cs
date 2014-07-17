@@ -20,5 +20,10 @@ namespace MvcApplication3.Controllers
         {
             return View();
         }
+
+        public ActionResult Employee()
+        {
+            return View();
+        }
     }
 }
